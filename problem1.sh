@@ -6,3 +6,5 @@ a=$(( $n1+$n2*$n3 ))
 echo $a
 b=$(( $n1*$n2+$n3 ))
 echo $b
+c=$(( $n3 + $n1/$n2 ))
+echo $c
