@@ -9,4 +9,6 @@ echo $b
 c=$(( $n3 + $n1/$n2 ))
 echo $c
 d=$(( $n1%$n2+$n3 ))
-echo $d
+echo $d 
+dict=([1]='$a' [2]='$b' [3]='$c' [4]='$d')
+echo $dict
