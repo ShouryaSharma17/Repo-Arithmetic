@@ -14,3 +14,5 @@ dict=([1]='$a' [2]='$b' [3]='$c' [4]='$d')
 echo $dict
 array=( $a $b $c $d )
 echo ${array[@]}
+echo sorted order is ${array[@]}
+
